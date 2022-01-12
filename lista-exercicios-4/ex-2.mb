@@ -1,4 +1,0 @@
-
-2. Descreva a estrutura dos comandos while e for em Python.
-R: While > enquanto determinada condição informada for válida o comando de repetição sera executado.
-R: For > recebe uma variavel que acresenta determinada codição informada a cada loop.

@@ -12,7 +12,7 @@ while op != 5:
     op = int(input('Qual operação deseja realizar: '))
     if op == 5:
         print('Fim da operação.')
-    if op != 5:    
+    if op >= 1 and op <= 4:    
         n1 = int(input('Informe um número: '))
         n2 = int (input('Informe outro número: '))
     
@@ -28,10 +28,8 @@ while op != 5:
         elif op == 4:
             div = n1 / n2
             print('O resultado da divisão é: ',div)
-        elif op < 1:
-            print('''Consagrado, eu desconheço verdadeiramente e me nego convincentemente a lhe dar uma saída relevante à essa sua entrada completamente confusa nesse universo de loucuragem, brigação e lutaria. Por obséquio, escolha uma opção válida do menu meu nobre!''')
-        elif op > 5:
-            print('''Consagrado, eu desconheço verdadeiramente e me nego convincentemente a lhe dar uma saída relevante à essa sua entrada completamente confusa nesse universo de loucuragem, brigação e lutaria. Por obséquio, escolha uma opção válida do menu meu nobre!''')
-         
+    else:
+        print('''Consagrado, eu desconheço verdadeiramente e me nego convincentemente a lhe dar uma saída relevante à essa sua entrada completamente confusa nesse universo de loucuragem, brigação e lutaria. Por obséquio, escolha uma opção válida do menu meu nobre!''')
+       
 
     

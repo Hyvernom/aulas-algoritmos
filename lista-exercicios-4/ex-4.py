@@ -23,9 +23,8 @@ print ('FIM')'''
 ímpares de 0 a 100'''
 
 '''for n in range(0,100):
-    if n % 2 == 0:
-        soma = n + 1
-        print (soma)
+    if n % 2 != 0:
+        print (n)
 print ('FIM')'''
 
 '''d. Qual o comando (while ou for) que você utilizou para desenvolver este
