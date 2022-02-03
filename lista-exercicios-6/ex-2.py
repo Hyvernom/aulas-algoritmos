@@ -1,8 +1,7 @@
 
-def multi(a,b):
-    return a * b
-   
-a = float(input("Digite valor de A: "))
-b = float(input("Digite valor de B: "))
-m = multi(a,b)
-print(m)
+def raiz(r,i):
+    ra = float(r) ** float(i)
+    return(ra)
+
+a = raiz(9,0.5)
+print(a)

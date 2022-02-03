@@ -1,11 +1,6 @@
 
-def parImpar(n):
-    r = n % 2
+def concat(a,b):
+    return str(a) + str(b)
 
-    if (r == 0):
-        return('O número {} é PAR'.format(n))
-    else:
-        return('O número {} é ÍMPAR'.format(n))
-
-p = parImpar(5)
-print(p)
+a = concat("ca","sa")
+print(a)
