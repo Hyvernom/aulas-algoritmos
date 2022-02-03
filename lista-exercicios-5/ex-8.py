@@ -1,6 +1,6 @@
-def tyDa(a,b,c):
+def tiDa(a,b,c):
     print(type(a))
     print(type(b))
     print(type(c))
 
-tyDa(1,"b",3.0)
+tiDa(1,"b",3.0)
